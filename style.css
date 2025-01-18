@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+* {
+  font-family: "Bricolage Grotesque", serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes loadAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: loadAnimation 1s ease-in;
+}
+
+img {
+  user-select: none;
+}
+
+#bio-btn button {
+  color: #e4e4e7;
+  background-color: #1e1e1e;
+  border: 1px solid #5c5c5c;
+  border-radius: 12px;
+}
+
+#pages button {
+  color: #e4e4e7;
+  background-color: #1e1e1e;
+  border: 1px solid #5c5c5c;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #5c5c5c;
+  border-radius: 12px;
+  display: flex;
+  gap: 30px;
+  width: 532px;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+}
+
+#social button {
+  color: #e4e4e7;
+  background-color: #1e1e1e;
+  border: 1px solid #5c5c5c;
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  scale: 0.8;
+}
+
+.img-type1 {
+  width: 64px;
+  border-radius: 12px;
+}
+
+.img-type2 {
+  width: 50px;
+  border-radius: 12px;
+}
+
+#stack > div {
+  background-color: #1e1e1e;
+  padding: 30px;
+  width: 532px;
+  border: 1px solid #5c5c5c;
+  border-radius: 12px;
+}
